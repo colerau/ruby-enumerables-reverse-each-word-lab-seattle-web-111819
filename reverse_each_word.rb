@@ -3,6 +3,6 @@ def reverse_each_word(string)
   a.collect do 
     |word| word.reverse 
   end 
-  end
+  a
 end 
 
