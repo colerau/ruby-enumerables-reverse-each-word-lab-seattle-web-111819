@@ -3,8 +3,9 @@ def reverse_each_word(string)
   i = 0
   a = ""
   while i < string.length do 
-    string[i].reverse
-    i += 1 
+    a = string[i].reverse
+    i += 1
+    b += a
   end
   string
 end 
