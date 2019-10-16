@@ -4,3 +4,4 @@ def reverse_each_word(string)
     |word| word.reverse
   end
 end 
+
